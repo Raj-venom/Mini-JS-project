@@ -20,12 +20,13 @@
 .box {
     border: 2px solid red;
     background-color: rgb(255, 255, 255);
-    width: 250px;
-    height: 100px;
+    width: 255px;
+    height: 105px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 
 
@@ -35,8 +36,14 @@
 
 
 .btn{
-    background-color: red;
     padding: 5px;
     border-radius: 5px;
     color:rgb(255, 255, 255);
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.img{
+    width: 20px;
+    margin-left: 200px;
 }
