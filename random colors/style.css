@@ -46,4 +46,5 @@
 .img{
     width: 20px;
     margin-left: 200px;
+    cursor: pointer;
 }

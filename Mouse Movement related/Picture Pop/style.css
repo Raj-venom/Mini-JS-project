@@ -33,3 +33,9 @@ html, body{
     height: 200px;
     /* background-color: blue; */
 }
+
+.popimg{
+    transform: translate(100%);
+    width: 150px;
+    height: 200px;
+}
