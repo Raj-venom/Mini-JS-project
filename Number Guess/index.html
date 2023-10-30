@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NUmber Guesst</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+
+      <div class="box">
+
+        <div id="title">
+
+            <h2 id="heading">Number Guessing Game</h2>
+            
+            <div class="about">
+                
+                <p>Try and guess a random number between 1 and 100</p>
+                <p>You have 10 attemps to guess Correct number</p>
+            </div>
+        </div>
+
+        <h2 class="body">Guess a number</h2>
+        <input class="body" id='input'type="number" />
+
+        <br>
+        <button class="body" id='submit' onclick="check()">Submit Guess</button>
+        <p  class="body"id="prevGuess">Previous Guess: <span>[]</span></p>
+        <p class="body">Guess Remaining: <span id="remaining">10 </span></p>
+
+        <p class="body" id="result">-------</p>
+        <button class="body"  onclick="reset()">Reset</button>
+      </div>
+
+
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

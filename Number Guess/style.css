@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: borderbox;
+  font-family: "Roboto", sans-serif;
+}
+
+/*
+#main{
+    width: 100vw;
+    height:100vh;
+    
+}
+
+.box{
+    background-color: rgb(231, 118, 118);
+    
+    height: 500px;
+    width: 400px;
+    border: 3px solid rgba(124, 117, 117, 0.962);
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#title{
+
+    background-color: rgb(241, 228, 196);
+}
+
+#heading{
+    padding: 10px 50px;
+    
+}
+
+.about{
+
+    text-align: center;
+
+}
+
+.body{
+
+   
+
+
+}
+
+#input{
+    padding: 10px 20px;
+}
+
+#result{
+    margin: 50px 20px;
+    font-size: 25px;
+}
+
+ */
+
+ 
+/* Center the main container */
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style the box containing the game elements */
+.box {
+  background-color: #ffffff;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Style the title and about section */
+#title {
+  margin-bottom: 20px;
+}
+
+#heading {
+  font-size: 24px;
+  color: #333;
+}
+
+.about {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Style the "Guess a number" input and button */
+.body {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+#input {
+  padding: 5px;
+  width: 100px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #313234;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #49555c;
+}
+
+/* Style the result and reset button */
+#result {
+  font-size: 20px;
+  color: #8e3e3e;
+}
+
+/* Center the "Reset" button */
+button:last-of-type {
+  display: block;
+  margin: 0 auto;
+}
