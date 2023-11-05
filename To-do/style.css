@@ -1,0 +1,87 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    min-height: 100vh;
+    overflow: auto;
+
+}
+
+.box {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 400px; 
+    min-height: 400px;
+}
+
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: -10px;
+    
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+    cursor: pointer;
+
+}
+
+i.ri-delete-bin-6-line {
+    color: red;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* .remove-item{
+    text-decoration: none !important;
+
+} */
+
+i.ri-delete-bin-6-line:hover {
+    color: darkred;
+}
+
+.done {
+    text-decoration: line-through;
+    color: black;
+    background-color: #c2bfbf;
+}
