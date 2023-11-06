@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Password Generator</title>
+  </head>
+
+  <body>
+    <div id="main">
+      <div id="box">
+        <h2>Password Generator</h2>
+        <input id="input-box" readonly type="text"  />
+        <button onclick="copy()">Copy</button>
+        <br />
+        <div class="strong">
+          <input onchange="passGenerator()" id="pass-range" type="range" min="8" max="20" value="10">
+          
+          <span id="len">Length: 8 </span>
+          <input onchange="passGenerator()" id="is-num" checked="true" type="checkbox" />
+          <label for="">Number</label>
+          <input onchange="passGenerator()" id="is-char" type="checkbox" />
+          <label for="">Character</label>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
