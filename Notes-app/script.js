@@ -19,9 +19,8 @@ const loadNotes = () => {
     let data = localStorage.getItem("notes");
     data = JSON.parse(data)
 
-    console.log(data.length)
-
-    if (data.length == 0) {
+    // if there is no value saved on localStorage active addNotes()
+    if (data == null || data.length == 0) {
 
         addNotes()
     }
