@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+#slider{
+    width: 60%;
+    height: 500px;
+    border: 1px solid red;
+    background-color: red;
+    margin: auto;
+    margin-top: 100px;
+    /* overflow: hidden; */
+}
+
+/* #slid-btn{
+    position: absolute;
+    top: 47%
+     
+} */
+
+#next{
+    position: absolute;
+    top: 47%;
+    right: 210px;
+}
+
+#prev{
+    position: absolute;
+    top: 47%;
+    left: 210px;
+}
+
+
+
+.btn{
+    /* background-color: rgb(167, 167, 185); */
+    /* color: white; */
+    border: 0;
+    /* padding: 10px 30px; */
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 55px;
+}
